@@ -1,0 +1,223 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img,
+table,
+td,
+blockquote,
+code,
+pre,
+textarea,
+input,
+video {
+  max-width: 100%;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  /* IE9-11 calculation fix */
+  font-size: calc(1em * .625);
+}
+
+body {
+  background-color: #2ba584;
+  color: #141414;
+  font-size: 1.6em;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+.navigation {
+  margin: 10vh auto 2rem;
+  max-width: 86rem;
+  text-align: right;
+}
+
+.navigation a,
+.navigtion a:hover,
+.navigation a:visited {
+  display: inline-block;
+  margin-left: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation .is-active {
+  border-bottom: 2px solid #fff;
+}
+
+.container {
+  margin: auto;
+  padding: 5rem;
+  max-width: 86rem;
+  border: 10px solid #279d7d;
+  border-radius: 4px;
+  background-color: #fff;
+  word-wrap: normal;
+}
+
+h1:first-child {
+  margin-top: 0;
+}
+
+.txtcenter {
+  text-align: center;
+}
+
+.txtright {
+  text-align: right;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  font-family: 'Merriweather', serif;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: #64b5f6;
+  text-decoration: underline;
+}
+
+/* rythm
+-------------------------------------------------------------- */
+p,
+ul,
+ol,
+dl,
+blockquote,
+pre,
+td,
+th,
+textarea,
+caption {
+    margin: 0 0 1.5em 0;
+    font-size: 1em; /* equiv 14px */
+    line-height: 1.5;
+}
+h1,
+.h1-like {
+    margin: 0 0 .875em 0;
+    font-size:  1.7143em; /* equiv 24px */
+    line-height: 1.75;
+}
+h2,
+.h2-like {
+    margin: 0 0 .9545em 0;
+    font-size:  1.5714em; /* equiv 22px */
+    line-height: 1.909;
+}
+h3,
+.h3-like {
+    margin: 0 0  1.05em 0;
+    font-size:  1.4286em; /* equiv 20px */
+    line-height:  1.05;
+}
+h4,
+.h4-like {
+    margin: 0 0  1.05em 0;
+    font-size:  1.4286em; /* equiv 20px */
+    line-height:  1.05;
+}
+h5,
+.h5-like {
+    margin: 0 0  1.1667em 0;
+    font-size:  1.2857em; /* equiv 18px */
+    line-height:  1.1667;
+}
+h6,
+.h6-like {
+    margin: 0 0  1.3125em 0;
+    font-size:  1.1429em; /* equiv 16px */
+    line-height:  1.3125;
+}
+.smaller {
+    margin:  2.1em 0  2.1em 0;
+    font-size: .7143em; /* equiv 10px */
+    line-height:  2.1;
+}
+.small {
+    margin:  1.75em 0  1.75em 0;
+    font-size: .8571em; /* equiv 12px */
+    line-height:  1.75;
+}
+.big {
+    margin:  1.3125em 0  1.3125em 0;
+    font-size:  1.1429em; /* equiv 16px */
+    line-height:  1.3125;
+}
+.bigger {
+    margin:  1.1667em 0  1.1667em 0;
+    font-size:  1.2857em; /* equiv 18px */
+    line-height:  1.1667;
+}
+.biggest {
+    margin:  1.05em 0  1.05em 0;
+    font-size:  1.4286em; /* equiv 20px */
+    line-height:  1.05;
+}
+
+
+/* avoid supp margin on nested elements */
+li p,
+li ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* you shall not pass */
+textarea,
+table,
+td,
+th,
+code,
+pre,
+samp,
+div,
+p {
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+}
+code,
+pre,
+samp {
+    white-space: pre-wrap;
+    font-family: consolas, 'DejaVu Sans Mono', courier, monospace;
+}
+code {
+    line-height: 1;
+}
+table {
+    margin-bottom: 1.5em;
+}
